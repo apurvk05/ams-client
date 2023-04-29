@@ -1,0 +1,55 @@
+.trail {
+  background: url('./back.gif') center/cover no-repeat fixed;
+
+}
+
+.start {
+  margin: auto;
+  /* width: 100%;*/
+  height: 792px;
+  max-width: 100%;
+  /* height: 100%; */
+  padding: 10px;
+  background: url('./final.gif') center/cover no-repeat fixed;
+
+
+}
+
+@media only screen and (max-width: 480px) {
+  .start {
+    margin: auto;
+    /* width: 100%;*/
+    height: 900px;
+    max-width: 100%;
+    /* height: 100%; */
+    padding: 10px;
+    background: url('./final.gif') center/cover no-repeat fixed;
+
+
+  }
+}
+
+.cover-heading {
+  color: aliceblue;
+  font-size: 4.5rem;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.cover-sub-heading {
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.inner_cover {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn_role {
+  margin-right: 5px;
+
+}
